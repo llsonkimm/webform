@@ -1,0 +1,188 @@
+{% load static %}
+<html>
+<head>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="{%static 'style4.css'%}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="data:;base64,=">
+
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container" id="navbarTop">
+        <a href="{% url 'describe_index' %}" class="navbar navbar-brand">Nelson Cheruiyot Portfolio</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="{% url 'describe_index' %}" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="{% url 'blog_index' %}" class="nav-link">Blog</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+  <div class="navbar navbar-inverse bg-inverse" id="navbarHeader">
+    <div class="container d-flex justify-content-between">
+      <div class="row">
+        <div class="col-sm-8 py-4">
+          <h4 class="text-dark">About The Author</h4>
+          <p class="" >The author of this site is an IT enthusiaist and majors in Software Development. He started out by pursuing a Bachelors Degree in Business Information Technology from <a href="https://www.ttu.ac.ke">Taita Taveta University</a> and graduated on 27th November 2019 with a Second Class Honors. During the course of his study,
+            he also worked as a cyber attendant for 2 years after having taken an academic leave and later undertook an attachment at <a href="https://vipingoridge.com">Vipingo Ridge Ltd</a> as IT Trainee and got hands-on experience in Newtwork Configuration and Management. Back in college, he was an active member of Mictec Club that was dedicated to enhancing collective training in Software Development by engaging with the already experienced personel in the field of Software developement.
+            Through the club, he also got to participate in setting and administering of Math Contest in the Coastal Region which was also a big success and got certified for the partticipation.</p>
+
+          <p class="" >Before and after completion of his studies, the author of this site has continously taken self training studies to improve on his Software Development prowess, as he clearly knows where his passion is.</p>
+
+          <p class="" >Fast forward to present, he is now building this site for his present and future collection of portfolios. He now possess some skills he acquired from his personalised training as a python-Django developer for a month plus having began from zero knowledge
+            with the said programming language.</p>
+
+          <p class="" >For more info. Please feel free to contact him with the provided contact details.</p>
+        </div>
+        <div class="col-sm-4 py-4">
+          <h4 class="text-dark">Contact</h4>
+          <ul class="list-unstyled">
+
+            <li><i class="fa fa-fw fa-lg fa-twitter" aria-hidden="true"></i>&nbsp;<a href="https://twitter.com/mhel_pogi17" target="_blank" class="hvr-underline-from-center">Follow on Twitter</a></li>
+
+            <li><i class="fa fa-fw fa-lg fa-facebook" aria-hidden="true"></i>&nbsp;<a href="https://www.facebook.com/lsonkimm" target="_blank" class="hvr-underline-from-center">Like on Facebook</a></li>
+
+            <li><i class="fa fa-fw fa-lg fa-instagram" aria-hidden="true"></i>&nbsp;<a href="https://www.instagram.com/lsonkimm/" target="_blank" class="hvr-underline-from-center">Connect on Instagram</a></li>
+
+            <li><i class="fa fa-fw fa-lg fa-envelope-o" aria-hidden="true"></i>&nbsp;<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="hvr-underline-from-center">Drop a Mail</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="navbar navbar-inverse bg-inverse">
+    <div class="container d-flex justify-content-between">
+      <a href="#album" id="navbar-brand" class="navbar-brand">Album View</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    </div>
+  </div>
+
+  <section id="jDesc" class="jumbotron text-center">
+    <div class="container ">
+      <h1 class="jumbotron-heading">Django Web Development</h1>
+      <p class="lead">These are collections of past, present and future web projects made by the author for showcasing his talent. He aims to fulfill this collections specifically for python-django projects, but of course this collections will not be django-projects-only
+        collections, as web development projects are not focused into only one language or framework.</p>
+      <p id="jButtons">
+        <a href="https://stackoverflow.com/users/12667295/nelson-kimutai-cheruiyot?tab=profile" target="_blank" class="btn btn-secondary hvr-underline-from-center"><i aria-hidden="true"></i>&nbsp;Stack Overflow</a>
+        <a href="https://github.com/llsonkimm" target="_blank" class="btn btn-secondary hvr-underline-from-center"><i class="fa fa-fw fa-lg fa-github" aria-hidden="true"></i>&nbsp;GitHub</a>
+        <a href="https://www.linkedin.com/in/nelson-cheruiyotportfollio/" target="_blank" class="btn btn-secondary hvr-underline-from-center"><i class="fa fa-fw fa-lg fa-linkedin" aria-hidden="true"></i>&nbsp;LinkedIn</a>
+        <a href="https://platform.activestate.com/llsonkimm" target="_blank" class="btn btn-secondary hvr-underline-from-center">&nbsp;ActiveState</a>
+      </p>
+    </div>
+  </section>
+
+  <section id="jProfile">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-8 py-4">
+          <h5> Web Development Bio:</h5>
+          <p>Self-taught Web Designer that evolved to a Full Stack Developer.
+          Web Development has been his passion since the manual/static html page days.</p>
+          <h5>My Competence:</h5>
+          <p>I am a highly competent and intermediate python-django web developer for a range of clients. I have proven expertise in building my personal web portfolio. I understand the django web-framework life-cycle in depth and am very capable at all aspects of development from project planning to requirements gathering through to writing and testing code, creating documentation and support. I am currently seeking long-term contract positions which will allow me to further improve my project management skills.</p>
+          <h5>Other Competences Include,</h5>
+          <p>Java, Android, C++, C, Html5, jQuery, CSS3, Bootstrap4 etc.</p>
+          <h5>Tools & Expertise</h5>
+          <p>git bash, anaconda power shell, pycharm community, visual studio code, </p>
+        </div>
+        <div class="col">
+          <img class="rounded-circle mx-auto d-block float-md-right" src="https://res.cloudinary.com/lsonkimm/image/upload/v1580131216/personal_bqz7t5.jpg" width="200px" height="300px" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <div class="album text-muted">
+    <div class="container">
+      <h4 class="text-white">The Author's Projects</h4>
+      <div id="album" >
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src="https://res.cloudinary.com/lsonkimm/image/upload/v1580120706/logsign_qfwb3v.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Python: Administrator Console</h5>
+              <p class="card-text">Author's Python Portal Project.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="https://res.cloudinary.com/lsonkimm/image/upload/v1580120989/navbar_qbgjce.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap Nav Bar and Menu</h5>
+              <p class="card-text">Author's Bootstrap Settings.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img class="card-img-top" src="https://res.cloudinary.com/lsonkimm/image/upload/v1580120707/property_aghj1u.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">A Real Esate Website</h5>
+              <p class="card-text">Author's Real Estate Project.</p>
+            </div>
+          </div>
+        </div>
+
+
+    <div class="card-group">
+              <div class="card">
+                <img class="card-img-top" src="https://res.cloudinary.com/lsonkimm/image/upload/v1580121047/holders_g0xx6b.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Soon to be filled with contents from the author's future projects.</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="https://res.cloudinary.com/lsonkimm/image/upload/v1580121047/holders_g0xx6b.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Soon to be filled with contents from the author's future projects.</p>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="https://res.cloudinary.com/lsonkimm/image/upload/v1580121047/holders_g0xx6b.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Soon to be filled with contents from the author's future projects.</p>
+                </div>
+              </div>
+     </div>
+
+
+
+</body>
+
+<div class="container">
+  {% block page_content %}{% endblock %}
+</div>
+</div>
+</div>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a id="backToTop" href="#navbarTop"><i class="fa fa-2x fa-arrow-circle-up hvr-icon-float" aria-hidden="true"></i></a>
+    </p>
+    <p>Developed by: Nelson Kimutai Cheruiyot</p>
+    <p>Powered by: <img class="img-fluid" src="https://res.cloudinary.com/lsonkimm/image/upload/v1580121663/Bootstrap_logo.svg_qu7jqv.png" alt="bootstrap" /> Bootstrap v4.0.0-alpha.6   :
+      <img class="img-fluid" src="https://res.cloudinary.com/lsonkimm/image/upload/v1580121232/GitHub_cnou8r.png" alt="github" /> GitHub Sync</p>
+    <p>llsonkimm &copy; 2020. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</html>

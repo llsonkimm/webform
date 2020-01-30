@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+<div class="row">
+    {% for describe in describes %}
+    <a href="#album" id="navbar-brand" class="navbar-brand"></a>
+    {% endfor %}
+</div>
+
+{% endblock %}

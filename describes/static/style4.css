@@ -1,0 +1,134 @@
+body {
+  min-height: 75rem; /* Can be removed; just added for demo purposes */
+  color: rgb(19, 17, 17);
+}
+#navbarHeader {
+  background-color: #0e0d0d;
+  color: rgb(233, 222, 222);
+}
+#navbarHeader a{
+  color: rgba(36, 167, 134, 0.76);
+}
+#navbarHeader a:hover {
+  text-decoration: none;
+  color: magenta;
+}
+
+#navbarHeader .hvr-underline-from-center:before {
+  background: magenta;
+}
+.navbar {
+  margin-bottom: 0;
+}
+#jDesc{
+  background-image: url("https://res.cloudinary.com/lsonkimm/image/upload/v1580120775/cloudy_vfyder.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#jDesc p{
+  color: rgb(247, 241, 241) ;
+}
+
+#jProfile{
+  background-image: url("https://res.cloudinary.com/lsonkimm/image/upload/v1580120708/clouy2_xd9uoe.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+#jProfile p{
+  color: #000000;
+  margin: 10px;
+}
+
+#jProfile h5{
+    color: #015f6b;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+#jProfile img{
+  margin: 5%;
+  padding: 20px;
+}
+
+#jButtons a{
+  background-color: rgba(0,0,0,.6);
+  color: #e1e1e1;
+  border: none;
+}
+
+#jButtons .hvr-underline-from-center:before{
+  background-color: magenta;
+}
+
+#jButtons a:hover{
+  color: magenta;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.album { 
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #000000;
+}
+
+.card {
+  padding: .75rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+  width: 350px !important;
+}
+
+.card-title{
+  color: #016b01;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card-text span{
+  font-weight: 600;
+  color: #563d7c;
+}
+
+/*
+.card-text {
+  font-size: 85%;
+} */
+
+
+#backToTop i:hover{
+ color: magenta;
+}
+footer {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: #cec1c1fb;
+}
+
+footer p {
+  margin-bottom: .2rem;
+}
+
+footer img {
+  width: 2%;
+}
